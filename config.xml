@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.miFacebook.com" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Facebook</name>
+    <description>
+        A blank PhoneGap app.
+    </description>
+    <author email="support@phonegap.com" href="http://phonegap.com">
+        PhoneGap Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+
+    <gap:plugin name="com.phonegap.plugins.facebookconnect" version="0.12.0">
+        <param name="APP_ID" value="403300083457779" />
+        <param name="APP_NAME" value="TestPhonegap" />
+    </gap:plugin>
+</widget>
